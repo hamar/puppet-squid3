@@ -41,9 +41,16 @@ class squid3 (
   $server_persistent_connections = 'on',
   $maximum_object_size           = '4096 KB',
   $maximum_object_size_in_memory = '512 KB',
-  $config_hash                   = {},
-  $refresh_patterns              = [],
-  $template                      = 'long',
+  $config_hash          = {},
+  $refresh_patterns     = [],
+  $template             = 'long',
+  $hierarchy_stoplist   = [],
+  $logformat            = [],
+  $access_log           = [],
+  $coredump_dir         = [],
+  $max_filedesc         = [],
+  $snmp_access          = [],
+  $snmp_port            = [],
 ) inherits ::squid3::params {
 
   $use_template = $template ? {
