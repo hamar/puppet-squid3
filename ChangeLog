@@ -1,3 +1,6 @@
+2015-07-02 - 0.2.4
+* Add all the configuration options squid 3.3 (#8, @hamar).
+
 2014-07-15 - 0.2.3
 * Add refresh_patterns config option (#7, @adamgraves85).
 
