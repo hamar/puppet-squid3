@@ -29,7 +29,7 @@ class squid3::params {
       $coredump_dir  = '/var/spool/squid'
     }
   }
-
+  $template = 'short'
   #$access_log      = [ "${log_directory}/access.log squid" ]
   #$cache_log       = "${log_directory}/cache.log"
   #$cache_store_log = "${log_directory}/store.log"
