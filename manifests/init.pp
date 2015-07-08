@@ -323,7 +323,7 @@ class squid3 (
   $read_ahead_gap = '16 KB',
   $read_timeout = '15 minutes',
   $refresh_all_ims = 'off',
-  $refresh_pattern = [],
+  $refresh_patterns = [],
   $relaxed_header_parser = 'on',
   $reload_into_ims = 'off',
   $reply_body_max_size = [],
