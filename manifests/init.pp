@@ -406,6 +406,7 @@ class squid3 (
   $windows_ipaddrchangemonitor = 'on',
   $workers = [],
   $write_timeout = '15 minutes',
+  $template = 'short',
 ) inherits ::squid3::params {
 
   $use_template = $template ? {
